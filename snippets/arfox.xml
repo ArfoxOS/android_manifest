@@ -17,5 +17,8 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Vendor -->
+    <project path="vendor/arfox" name="android_vendor_arfox" remote="arfox" />
+
     <project path="manifest" name="android_manifest" remote="arfox" />
 </manifest>
