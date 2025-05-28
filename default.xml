@@ -1015,5 +1015,6 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/arfox.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>

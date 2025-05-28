@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="arfox" fetch="git@github.com:ArfoxOS" revision="refs/heads/15" />
+    <remote name="arfox-blob" fetch="https://gitlab.com/ArfoxOS" revision="refs/heads/15" />
+
+    <project path="manifest" name="android_manifest" remote="arfox" />
+</manifest>
