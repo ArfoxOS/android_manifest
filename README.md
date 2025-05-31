@@ -1,8 +1,7 @@
-# ArfoxOS
-
+![banner](https://raw.githubusercontent.com/ArfoxOS/android_manifest/refs/heads/15/res/banner.png)
 ## Getting started
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+To get started with Android/ArfoxOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 ## Sync sources
 
