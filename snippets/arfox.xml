@@ -20,5 +20,11 @@
     <!-- Vendor -->
     <project path="vendor/arfox" name="android_vendor_arfox" remote="arfox" />
 
+    <!-- Packages -->
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arfox" />
+
+    <!-- Frameworks -->
+    <project path="frameworks/base" name="android_frameworks_base" remote="arfox" />
+
     <project path="manifest" name="android_manifest" remote="arfox" />
 </manifest>
