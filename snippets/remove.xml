@@ -10,4 +10,5 @@
     <remove-project name="LineageOS/android_packages_apps_Recorder" />
     <remove-project name="LineageOS/android_packages_apps_Twelve" />
     <remove-project name="LineageOS/android_packages_apps_AudioFX" />
+    <remove-project name="LineageOS/android_bootable_recovery" />
 </manifest>

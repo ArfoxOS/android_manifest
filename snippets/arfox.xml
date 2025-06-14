@@ -30,5 +30,8 @@
     <!-- Frameworks -->
     <project path="frameworks/base" name="android_frameworks_base" remote="arfox" />
 
+    <!-- Boot -->
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="arfox" />
+
     <project path="manifest" name="android_manifest" remote="arfox" />
 </manifest>
