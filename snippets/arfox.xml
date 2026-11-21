@@ -2,7 +2,21 @@
 <manifest>
   <remote name="arfox" fetch="https://github.com/ArfoxOS" revision="refs/heads/17" />
 
+  <project path="build/make" name="android_build" remote="arfox">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="arfox">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <project path="manifest" name="android_manifest" remote="arfox" />
+  <project path="vendor/arfox" name="android_vendor_arfox" remote="arfox" />
   <project path="packages/apps/ArfoxSettings" name="android_packages_apps_ArfoxSettings" remote="arfox" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arfox" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arfox" />
