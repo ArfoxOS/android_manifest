@@ -3,4 +3,5 @@
   <remote name="arfox" fetch="https://github.com/ArfoxOS" revision="refs/heads/17" />
 
   <project path="manifest" name="android_manifest" remote="arfox" />
+  <project path="packages/apps/ArfoxSettings" name="android_packages_apps_ArfoxSettings" remote="arfox" />
 </manifest>
