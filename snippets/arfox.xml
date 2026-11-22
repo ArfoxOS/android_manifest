@@ -16,7 +16,9 @@
   </project>
 
   <project path="manifest" name="android_manifest" remote="arfox" />
-  <project path="vendor/arfox" name="android_vendor_arfox" remote="arfox" />
+  <project path="vendor/arfox" name="android_vendor_arfox" remote="arfox">
+    <linkfile src="tools/arfox-build.sh" dest="arfox-build.sh" />
+  </project>
   <project path="packages/apps/ArfoxSettings" name="android_packages_apps_ArfoxSettings" remote="arfox" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arfox" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arfox" />
