@@ -19,7 +19,9 @@
   <project path="vendor/arfox" name="android_vendor_arfox" remote="arfox">
     <linkfile src="tools/arfox-build.sh" dest="arfox-build.sh" />
   </project>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="arfox" groups="pdk" />
   <project path="packages/apps/ArfoxSettings" name="android_packages_apps_ArfoxSettings" remote="arfox" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arfox" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arfox" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="arfox" />
 </manifest>
